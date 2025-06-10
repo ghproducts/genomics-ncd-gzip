@@ -1,19 +1,11 @@
 from gziplength import GzipLengthCalc
 from concurrent.futures import ProcessPoolExecutor
-from Bio import SeqIO
 
 import pandas as pd
 import gzip
 import argparse
 import numpy as np
-import os
-import random
-import time
-import sys
-import csv
 import concurrent.futures
-import glob
-import pickle
 
 from dataloader import Fasta_DataLoader
 from utils import TaxaLevel
