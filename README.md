@@ -1,12 +1,13 @@
 
 # Genomic Similarity via Normalized Compression Distance (NCD)
 
-This project implements a Python pipeline to compute pairwise distances between genomic sequences using **Normalized Compression Distance (NCD)** — a method rooted in Kolmogorov complexity and approximated via gzip compression. It supports both genome- and taxonomy-level subsampling, multithreaded distance computation, and top-K filtering for scalability.
+This project implements a Python pipeline to compute pairwise distances between genomic sequences using **Normalized Compression Distance (NCD)** — a method rooted in Kolmogorov complexity and approximated via gzip compression. It supports both genome- and taxonomy-level subsampling, multithreaded distance computation, and top-K filtering for scalability. 
 
 ---
 
 ## Features
 
+- Enabled usage with .fasta format for input sequences
 - Subsampling by **genome length** or **taxonomic hierarchy** (e.g., kingdom, phylum, species)
 - Optional saving/loading of precomputed compressed lengths for fast reuse
 - Parallelized NCD calculation with `ProcessPoolExecutor`
