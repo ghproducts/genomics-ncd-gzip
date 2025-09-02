@@ -102,7 +102,7 @@ Used for sampling genomes by taxonomic rank (e.g., 100 fragments per species, ge
 ## Notes
 
 - NCD is symmetric and bounded between 0 and 1
-- In this case, we utilize 126bp fragments for training and testing. We have found that 
-- For large datasets, use `--k_min` to avoid memory and storage issues. The NCD matrix can become large as the number of compared sequences increases.
+- In this case, we utilize 126bp fragments for training and testing.
+- For large datasets, `--k_min` can be used to avoid memory and storage issues. The NCD matrix can become large as the number of compared sequences increases.
 
 
