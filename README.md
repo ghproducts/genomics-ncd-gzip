@@ -36,7 +36,7 @@ This project implements a Python pipeline to compute pairwise distances between 
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.8+ (this project has not been tested on any prior python versions)
 - Biopython
 - NumPy
 - pandas
